@@ -6,11 +6,9 @@ body {
   img {
     width: 100px;
     height: 100px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    gap:52px;
+    
+
+    
 
   }
   
@@ -33,4 +31,12 @@ body {
     background: #eee;
   }
 
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
   
+  .info {
+    max-width: 200px;
+  }
